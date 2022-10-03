@@ -4,14 +4,13 @@ install:
 		pip install -r requirements.txt
 format:
 	#format code
-	black *.py app/*.py
+	black *.py apps/*.py
 lint:
 	#flake8 or pylint
 	pylint --disable=R,C *.py  
 test:
 	#test
-	python -m pytest --cov=app
-build:
+	python -m pytest -vv --cov=.
 	#build container
 deploy:
 	#deploy

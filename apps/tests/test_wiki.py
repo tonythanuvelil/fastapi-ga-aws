@@ -1,4 +1,4 @@
-from app.scrapper import wiki
+from apps.scrapper import wiki
 
 
 def test_wiki():
