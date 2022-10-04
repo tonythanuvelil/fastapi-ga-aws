@@ -27,4 +27,4 @@ jobs:
         make format
     - name: Run application
       run: |
-        sudo systemctl start fastapi001-uvicorn.service
+        sudo systemctl restart fastapi001-uvicorn.service
