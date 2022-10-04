@@ -27,4 +27,4 @@ jobs:
         make format
     - name: Run application
       run: |
-        pm2 start "uvicorn main:app --port=8081 --root-path=/varys" --name fastapi-ga-aws
+        sudo systemctl start fastapi001-uvicorn.service
