@@ -8,6 +8,7 @@ FastAPI + Github Actions + AWS
 - Linting using `pylint`
 - Formatting using `black`
 - Python cli using `fire`
+- Testing using `pytest`
 - CI using Github Actions
 - FastAPI
 - Docker for containerization

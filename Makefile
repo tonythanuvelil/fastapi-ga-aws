@@ -11,7 +11,12 @@ lint:
 test:
 	#test
 	python -m pytest -vv --cov=.
+build:
 	#build container
+	# docker build -t deploy-fastapi .
 deploy:
 	#deploy
-all: install format lint test deploy
+run:
+	# run app
+	uvicorn main:app --port=8081
+all: install format lint test deploy run
