@@ -1,6 +1,6 @@
 # fastapi-ga-aws
 
-[![FastAPI + Github Actions](https://github.com/tonythanuvelil/fastapi-ga-aws/actions/workflows/devops.yml/badge.svg)](https://github.com/tonythanuvelil/fastapi-ga-aws/actions/workflows/devops.yml)
+[![FastAPI + Github Actions + AWS](https://github.com/tonythanuvelil/fastapi-ga-aws/actions/workflows/devops.yml/badge.svg?branch=main)](https://github.com/tonythanuvelil/fastapi-ga-aws/actions/workflows/devops.yml)
 
 FastAPI + Github Actions + AWS
 
