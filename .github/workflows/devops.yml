@@ -25,3 +25,6 @@ jobs:
     - name: Format code
       run: |
         make format
+    - name: Run application
+      script: |
+        uvicorn main:app --port=8081 --root-path=/varys
